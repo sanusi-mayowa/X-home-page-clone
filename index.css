@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background: #000000;
+    color: #e7e9ea;
+    font-family: 'Poppins', sans-serif;
+    /* transition: 5s all linear; */
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 95%;
+    margin:0 auto;
+}
+.container-left{
+    margin: 0 auto;
+}
+.container-left img{
+    margin-top: 150px;
+    width: 500px;
+}
+.container-right{
+    margin: 0 auto;
+}
+.container-right h1{
+    margin-top: 70px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    float: right;
+}
+.container-right h6{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.button-main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.button-1 button{
+    background: #ffffff;
+    color: #000000;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    align-items: center;
+    width: 300px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-1 button span i{
+    background: #ffffff;
+    font-size: 20px;
+}
+.bi-apple{
+    color: #000000;
+}
+hr{
+    width: 130px;
+}
+.btn{
+    width: 310px;
+    margin-left: -3px;
+    border-radius: 50px !important;
+}
+p{
+    font-size: 11px;
+    color: gray;
+}
+p span{
+    cursor: pointer;
+}
+p span:hover{ 
+    text-decoration: underline;
+    text-decoration-color: #000072;
+}
+.last button{
+    border: 1px solid gray;
+    transition: 5s ease;
+}
+.last button:hover{
+    background: rgb(29, 155, 240, 0.4);
+    border: 1px solid gray;
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        grid-template-columns: 1fr;
+        position: relative;
+    }    
+    .container-left{
+        display: none;
+    }
+    .container-right{
+        margin-left: 40px;
+    }
+    .logo{
+        margin-top: 50px;
+    }
+    .container-right h1{
+        margin-top: 20px;
+    }
+}
