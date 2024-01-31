@@ -8,6 +8,8 @@
     background: #000000;
     color: #e7e9ea;
     font-family: 'Poppins', sans-serif;
+    outline: none !important;
+    /* box-shadow: none !important; */
     /* transition: 5s all linear; */
 }
 .container{
